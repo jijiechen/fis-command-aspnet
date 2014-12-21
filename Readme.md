@@ -1,10 +1,16 @@
 # fis-command-aspnet #
 
-ASP.NET server for previewing fis projects.
+ASP.NET server for previewing [fis projects](https://github.com/fex-team/fis).
+
+Fis, or Front-end Integrated Solution is a web front end framework from the Baidu front-end team, it helps developers and deploy engineers easier to test and publish assets.
+
+This asp.net server provider is an extension for fis to enable support for asp.net projects. It automatically starts iisexpress、DevServer or XSP with mono to serve the project in different environments. 
+
+
 
 **Usage**
 
-  Usage: aspnet <command> [options]
+  Usage: fis aspnet <command> [options]
 
   Commands:
 
