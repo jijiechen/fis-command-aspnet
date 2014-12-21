@@ -1,18 +1,27 @@
+Note: [Use this link](https://github.com/ciznx/fis-command-aspnet/blob/master/Readme-en.md) to read the English version of Readme.md.
+
 # fis-command-aspnet #
 
-ASP.NET server for previewing [fis projects](https://github.com/fex-team/fis).
+用于为  [FIS](https://github.com/fex-team/fis) 预览 ASP.NET 项目的服务器提供程序。
 
-Fis, or Front-end Integrated Solution is a web front end framework from the Baidu front-end team, it helps developers and deploy engineers easier to test and publish assets.
+FIS, 即前端集成解决方案，是由百度前端团队开发的一个前端框架，它可以让开发者和部署工程师更方便地测试和发布前端资源。
 
-This asp.net server provider is an extension for fis to enable support for asp.net projects. It automatically starts iisexpress、DevServer or XSP with mono to serve the project in different environments. 
+此 asp.net 服务器提供程序是 FIS 的扩展，它根据运行环境的不同，自动启动 iisexpress、DevServer 或基于 Mono 的 XSP 来为 ASP.NET 项目提供预览服务。 
 
 
+## 安装 ##
+当正确地安装了 FIS 之后，您可以直接从此 Github 站点下载此扩展，将文件夹命名为 fis-command-aspnet，即可使用其功能。
+如果您已经安装了百度的包管理器 [Lights](http://lightjs.duapp.com/)，您也可以通过下面的命令来安装：
 
-**Usage**
+    lights install fis-command-aspnet
 
-  Usage: fis aspnet <command> [options]
+在运行此命令之前，您可能需要使用 cd 命令将命令行上下文路径切换至 FIS 安装目录。
 
-  Commands:
+## 使用 ##
+
+  用法： fis aspnet <command> [options]
+
+  命令列表：
 
     start                  start server
     stop                   shutdown server
@@ -21,7 +30,7 @@ This asp.net server provider is an extension for fis to enable support for asp.n
     open                   open document root directory
     clean                  clean files in document root
 
-  Options for **start**:
+  **start** 命令支持的参数：
 
     -p, --port <int>               port for the server to listen
     --root <path>                  root path of the preview project
@@ -32,10 +41,9 @@ This asp.net server provider is an extension for fis to enable support for asp.n
 
 
 
+## 协议 ##
 
-**License**
-
-This project use the [WTFPL](http://en.wikipedia.org/wiki/WTFPL) license, which means you can do what ever you want with it.
+此项目基于 [WTFPL](http://en.wikipedia.org/wiki/WTFPL) 开源：即您可以以任何方式使用它。
 
 <pre>
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE

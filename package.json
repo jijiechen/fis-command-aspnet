@@ -2,9 +2,9 @@
     "name": "fis-command-aspnet",
     "description": "asp.net server for fis previewing.",
     "version": "0.1.0",
-    "author": "Jijie Chen <ciznx@ciznx.com>",
+    "author": "Jijie Chen",
     "homepage": "http://blog.ciznx.com/",
-    "keywords": [ "fis", "aspnet" ],
+    "keywords": [ "fis", "kernal" ],
     "repository": {
         "type": "git",
         "url": "https://github.com/ciznx/fis-command-aspnet.git"
@@ -13,7 +13,5 @@
         "node": ">= 0.8.0"
     },
     "main": "command.js",
-    "dependencies": {
-        "fis-command-server": ">= 0.6.12"
-    }
+    "license": "WTFPL"
 }
