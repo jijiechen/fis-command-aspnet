@@ -10,8 +10,12 @@ This asp.net server provider is an extension for fis to enable support for asp.n
 
 
 ## Installation ##
-After you have installed FIS properly, just download the lastest release from this project to "fis-command-aspnet" folder of your fis installation directory.
+
+    npm install fis-command-aspnet
+
 You may use cd command to swtich cwd to your fis installation path first.
+
+After you have installed FIS properly, you can also download the lastest release from [project home page on Github](https://github.com/ciznx/fis-command-aspnet) to "fis-command-aspnet" sub folder of your fis installation's node_modules.
 
 ## Usage ##
 
@@ -46,7 +50,7 @@ This project is open source under the [WTFPL](http://en.wikipedia.org/wiki/WTFPL
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
 
-Copyright (C) 2004 Jijie Chen <ciznx@ciznx.com>
+Copyright (C) 2014 Jijie Chen <ciznx@ciznx.com>
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long

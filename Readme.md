@@ -10,8 +10,12 @@ FIS, 即前端集成解决方案，是由百度前端团队开发的一个前端
 
 
 ## 安装 ##
-当正确地安装了 FIS 之后，您可以直接从此 Github 站点下载此扩展，将文件夹命名为 fis-command-aspnet，即可使用其功能。
-您可以需要使用 cd 命令将命令行上下文路径切换至 FIS 安装目录。
+
+    npm install fis-command-aspnet
+
+您可能需要使用 cd 命令将命令行上下文路径切换至 FIS 安装目录。
+
+当正确地安装了 FIS 之后，您也可以直接从 [Github 站点](https://github.com/ciznx/fis-command-aspnet)下载此扩展，将文件夹命名为 fis-command-aspnet 并置于 fis 的安装目录的 node_modules 中，即可使用其功能。
 
 ## 使用 ##
 
@@ -45,7 +49,7 @@ FIS, 即前端集成解决方案，是由百度前端团队开发的一个前端
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
 
-Copyright (C) 2004 Jijie Chen <ciznx@ciznx.com>
+Copyright (C) 2014 Jijie Chen <ciznx@ciznx.com>
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long
